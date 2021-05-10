@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <input
+          id="cityName"
+          type="text"
+          name="city"
+          placeholder="Enter the city name..."
+        />
+        <div class="buttons">
+          <button class="btn" id="btn_info">Vremea in locatia selectata</button>
+          <button class="btn" id="btn_7days" onclick="showDiv()">
+            Vremea pe urmatoarele 7 zile
+          </button>
+          <button class="btn" id="btn_current" >
+            Vremea in locatia curenta
+          </button>
+        </div>
+      </div>
+
+      <div class="left">
+        <label class="label" id="oras">Selected city: not selected</label>
+        <label class="label" id="vreme">Current Weather: not selected</label>
+        <label class="label" id="temperatura">Temperature: not selected</label>
+        <label class="label" id="umiditate">Humidity: not selected</label>
+        <label class="label" id="presiune">Pressure: not selected</label>
+        <label class="label" id="temp_max"
+          >Max temperature: not selected</label
+        >
+        <label class="label" id="temp_min"
+          >Min temperature: not selected</label
+        >
+      </div>
+
+      <div id="forecast" class="forecast" style="display:none;">
+        <div class="days">
+          <p>Ziua 1</p>
+          <img id="image0" src="" />
+          <p id="temperature0">Temperature: not selected</p>
+          <p id="max_temp0">Max temperature: not selected</p>
+          <p id="min_temp0">Min Temperature: not selected</p>
+        </div>
+        <div class="days">
+          <p>Ziua 2</p>
+          <img id="image1" src="" />
+          <p id="temperature1">Temperature: not selected</p>
+          <p id="max_temp1">Max temperature: not selected</p>
+          <p id="min_temp1">Min Temperature: not selected</p>
+        </div>
+        <div class="days">
+          <p>Ziua 3</p>
+          <img id="image2" src="" />
+          <p id="temperature2">Temperature: not selected</p>
+          <p id="max_temp2">Max temperature: not selected</p>
+          <p id="min_temp2">Min Temperature: not selected</p>
+        </div>
+        <div class="days">
+          <p>Ziua 4</p>
+          <img id="image3" src="" />
+          <p id="temperature3">Temperature: not selected</p>
+          <p id="max_temp3">Max temperature: not selected</p>
+          <p id="min_temp3">Min Temperature: not selected</p>
+        </div>
+
+        <div class="days">
+          <p>Ziua 5</p>
+          <img id="image4" src="" />
+          <p id="temperature4">Temperature: not selected</p>
+          <p id="max_temp4">Max temperature: not selected</p>
+          <p id="min_temp4">Min Temperature: not selected</p>
+        </div>
+
+        <div class="days">
+          <p>Ziua 6</p>
+          <img id="image5" src="" />
+          <p id="temperature5">Temperature: not selected</p>
+          <p id="max_temp5">Max temperature: not selected</p>
+          <p id="min_temp5">Min Temperature: not selected</p>
+        </div>
+
+        <div class="days">
+          <p>Ziua 7</p>
+          <img id="image6" src="" />
+          <p id="temperature6">Temperature: not selected</p>
+          <p id="max_temp6">Max temperature: not selected</p>
+          <p id="min_temp6">Min Temperature: not selected</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="weatherApi.js">
+   </script>
+  </body>
+</html>
