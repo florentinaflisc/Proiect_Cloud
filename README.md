@@ -150,6 +150,13 @@ La selectarea butonului ”Vremea în locația curentă” se afișează tempera
   Pentru locația curentă se va afișa starea vremii pentru București.
   
    <img src="https://github.com/florentinaflisc/Proiect_Cloud/blob/master/images/LocatieCurenta.PNG">
+   
+   Referințe
+   
+https://opencagedata.com/api
+
+https://openweathermap.org/api/one-call-api
+
  
  
  
