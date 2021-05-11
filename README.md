@@ -129,6 +129,7 @@ Pentru vreme se utilizează tot o metoda de tip HTTP GET pentru a prelua informa
 
 Pentru ambele API-uri a fost necesară crearea de conturi si solicitarea de API Keys. OpenCage a avut un proces mai simplu de autentificare și solicitare API. Acesta oferă pentru un cont free maxim 2500 de request-uri pe zi. Pentru OpenWeather, dupa crearea contului trebuia ales pachetul dorit, in cazul meu One Call API unde am ales varianta free care pune la dispoziție maxim 1000 de apeluri pe zi si maxim 30000 pe lună.
 
+ <img src="flux_date.PNG">
  
 Capturi de ecran aplicație
 
