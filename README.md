@@ -133,5 +133,7 @@ Pentru ambele API-uri a fost necesară crearea de conturi si solicitarea de API 
  
 Capturi de ecran aplicație
 
+![alt text](/images/PrimaPag.png "Logo Title Text 1")
+
 
 
